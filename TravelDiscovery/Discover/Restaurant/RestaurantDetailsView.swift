@@ -124,21 +124,6 @@ struct RestaurantDetailsView: View {
                 .font(.system(size: 14, weight:.regular))
                 .padding(.horizontal)
                 .padding(.bottom)
-//            HStack {
-//                Text("Popular Dishes")
-//                    .font(.system(size: 16, weight:.bold))
-//                    Spacer()
-//            }.padding(.horizontal)
-//
-//
-//            ScrollView(.horizontal, showsIndicators: false) {
-//                HStack(spacing: 16) {
-//                    ForEach(vm.details?.popularDishes ?? [], id: \.self) { dish in
-//                        DishCell(dish: dish)
-//                    }
-//                }.padding(.horizontal)
-//            }
-            
             if let reviews = vm.details?.reviews {
                 ReviewList(reviews: reviews)
             }
@@ -161,7 +146,6 @@ struct ReviewList: View {
                 .font(.system(size: 16, weight:.bold))
                 Spacer()
         }.padding(.horizontal)
-//        if let reviews = vm.details?.reviews {
             ForEach(reviews, id: \.self) { review in
                 VStack(alignment: .leading) {
                     Text(review.text)

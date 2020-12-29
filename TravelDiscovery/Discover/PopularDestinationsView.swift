@@ -147,14 +147,7 @@ struct PopularDestiantionDetailsView: View {
                     .labelsHidden()
             }.padding(.horizontal)
             
-            //            Map(coordinateRegion: $region)
-            
-            //                .frame(height: 300)
-            
-            
             Map(coordinateRegion: $region, annotationItems: isShowingAttractions ? attractions : []) { attraction in
-                //                 MapMarker(coordinate: .init(latitude: attraction.latitude, longitude: attraction.longitude), tint: .orange)
-                
                 MapAnnotation(coordinate: .init(latitude: attraction.latitude, longitude: attraction.longitude)) {
                     CustomMapAnnotation(attraction: attraction)
                 }

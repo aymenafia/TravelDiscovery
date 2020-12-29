@@ -28,7 +28,6 @@
 		E15447032593C0A700B800AA /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15447022593C0A700B800AA /* Category.swift */; };
 		E15447092593C46F00B800AA /* TileModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15447082593C46F00B800AA /* TileModifier.swift */; };
 		E154471B2593EC3900B800AA /* KingfisherSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = E154471A2593EC3900B800AA /* KingfisherSwiftUI */; };
-		E15447212593EDB400B800AA /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = E15447202593EDB400B800AA /* SDWebImageSwiftUI */; };
 		E15447272593F42900B800AA /* CategoryDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15447262593F42900B800AA /* CategoryDetailsView.swift */; };
 		E154472F2593F4BB00B800AA /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E154472E2593F4BB00B800AA /* ActivityIndicatorView.swift */; };
 		E15447372593F50F00B800AA /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15447362593F50F00B800AA /* Place.swift */; };
@@ -88,7 +87,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E15447212593EDB400B800AA /* SDWebImageSwiftUI in Frameworks */,
 				E154471B2593EC3900B800AA /* KingfisherSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,7 +257,6 @@
 			name = TravelDiscovery;
 			packageProductDependencies = (
 				E154471A2593EC3900B800AA /* KingfisherSwiftUI */,
-				E15447202593EDB400B800AA /* SDWebImageSwiftUI */,
 			);
 			productName = TravelDiscovery;
 			productReference = E1215185258D10D500013966 /* TravelDiscovery.app */;
@@ -334,7 +331,6 @@
 			mainGroup = E121517C258D10D500013966;
 			packageReferences = (
 				E15447192593EC3900B800AA /* XCRemoteSwiftPackageReference "Kingfisher" */,
-				E154471F2593EDB400B800AA /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
 			);
 			productRefGroup = E1215186258D10D500013966 /* Products */;
 			projectDirPath = "";
@@ -722,14 +718,6 @@
 				minimumVersion = 5.15.8;
 			};
 		};
-		E154471F2593EDB400B800AA /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.5.0;
-			};
-		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -737,11 +725,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = E15447192593EC3900B800AA /* XCRemoteSwiftPackageReference "Kingfisher" */;
 			productName = KingfisherSwiftUI;
-		};
-		E15447202593EDB400B800AA /* SDWebImageSwiftUI */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = E154471F2593EDB400B800AA /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
-			productName = SDWebImageSwiftUI;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

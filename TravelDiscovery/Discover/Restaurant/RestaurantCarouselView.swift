@@ -61,15 +61,7 @@ class CarouselPageViewController: UIPageViewController, UIPageViewControllerData
         return allControllers[index + 1]
     }
     
-//
-//    let firstVC = UIHostingController(rootView: Text("First View"))
-//    let secondVC = UIHostingController(rootView: Text("second View"))
-//    let thirdVC = UIHostingController(rootView: Text("third View"))
-//
-//    lazy var allControllers: [UIViewController] = [
-//    firstVC, secondVC, thirdVC
-//    ]
-//
+
     lazy var allControllers: [UIViewController] = []
     var selectedIndex: Int
     init(imageUrlStrings: [String], selectedIndex: Int) {
@@ -98,9 +90,7 @@ class CarouselPageViewController: UIPageViewController, UIPageViewControllerData
         if selectedIndex < allControllers.count {
             setViewControllers([allControllers[selectedIndex]], direction: .forward, animated: true, completion: nil)
         }
-//        if let first = allControllers.first {
-//            setViewControllers([first], direction: .forward, animated: true, completion: nil)
-//        }
+
         self.dataSource = self
         self.delegate = self
     }

@@ -14,10 +14,6 @@ struct DestinationHeaderContainer: UIViewControllerRepresentable {
 
     func makeUIViewController(context: Context) -> UIViewController {
         
-//        let redVC = UIHostingController(rootView: Text("First ViewController 123"))
-//        redVC.view.backgroundColor = .red
-//        return redVC
-        
         let pvc = CustomPageViewController(imageUrlStrings: imageUrlStrings)
         return pvc
     }

@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-
 extension Color {
     static let discoverBackground = Color(.init(white: 0.95, alpha: 1))
     static let defaultBackground = Color("defaultBackground")
@@ -60,7 +59,6 @@ struct DiscoverView: View {
         }
     }
 }
-//                    .background(colorScheme == .light ? Color.discoverBackground : Color.black)
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

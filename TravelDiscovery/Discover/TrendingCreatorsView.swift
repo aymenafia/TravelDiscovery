@@ -15,7 +15,6 @@ struct TrendingCreatorsView: View {
         .init(id: 2, name: "Sam Smith", imageName: "sam")
     ]
     
-    
     var body: some View {
         VStack {
             HStack {
@@ -44,9 +43,6 @@ struct TrendingCreatorsView: View {
         }
     }
 }
-
-
-
 
 struct DiscoverUserView: View {
     

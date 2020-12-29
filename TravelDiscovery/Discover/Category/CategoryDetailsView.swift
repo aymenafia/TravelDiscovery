@@ -52,11 +52,6 @@ class CategoryDetailsViewModel: ObservableObject {
 
 struct CategoryDetailsView: View {
     
-//    let name: String
-//
-//    @ObservedObject var vm = CategoryDetailsViewModel()
-    
-    
     private let name: String
     @ObservedObject private var vm: CategoryDetailsViewModel
     
