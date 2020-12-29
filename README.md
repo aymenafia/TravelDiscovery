@@ -9,7 +9,7 @@ It is an expense tracker that separates personal costs from business costs. See 
 
 | Screenshot 01                  | Screenshot 02                  |
 | ------------------------------ | ------------------------------ |
-|Simulator Screen Shot - iPhone 12 - 2020-12-29 at 18.16.48.png| ![ss02](.screenshots/ss02.png) |
+|![ss01]Simulator Screen Shot - iPhone 12 - 2020-12-29 at 18.16.48.png| ![ss02](.screenshots/ss02.png) |
 
 ---
 
