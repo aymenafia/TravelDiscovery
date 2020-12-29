@@ -3,7 +3,7 @@
 ![SwiftUI](https://img.shields.io/badge/Platform-SwiftUI-purple)
 ![Xcode 12](https://img.shields.io/badge/IDE-Xcode%2012-blue)
 
-It is an expense tracker that separates personal costs from business costs. See how much did you spend and the amounts you spent.
+It is a wokshop app, of my road to master SwiftUI.
 
 ## Demo
 <img src="https://user-images.githubusercontent.com/26444488/103302309-a21b7d80-4a03-11eb-9964-f68865e3f0a1.png" alt="" width="400" height="700">
