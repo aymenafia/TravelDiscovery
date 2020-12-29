@@ -13,9 +13,12 @@ It is an expense tracker that separates personal costs from business costs. See 
 
 <img src="https://user-images.githubusercontent.com/26444488/103302611-57e6cc00-4a04-11eb-86bc-0c1a706deb7f.png" alt="" width="400" height="700">
 
-![ss4](https://user-images.githubusercontent.com/26444488/103302642-66cd7e80-4a04-11eb-8d7f-aee5acfbeb4f.png)
-![ss5](https://user-images.githubusercontent.com/26444488/103302715-91b7d280-4a04-11eb-8c0d-7b350edf5fbb.png)
-![ss6](https://user-images.githubusercontent.com/26444488/103302754-ac8a4700-4a04-11eb-9b4a-6d1b2d9d90b5.png)
+<img src="https://user-images.githubusercontent.com/26444488/103302642-66cd7e80-4a04-11eb-8d7f-aee5acfbeb4f.png" alt="" width="400" height="700">
+
+<img src="https://user-images.githubusercontent.com/26444488/103302715-91b7d280-4a04-11eb-8c0d-7b350edf5fbb.png" alt="" width="400" height="700">
+
+<img src="https://user-images.githubusercontent.com/26444488/103302754-ac8a4700-4a04-11eb-9b4a-6d1b2d9d90b5.png" alt="" width="400" height="700">
+
 ---
 
 **MIT License**
