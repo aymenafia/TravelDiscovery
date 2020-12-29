@@ -6,7 +6,7 @@
 It is an expense tracker that separates personal costs from business costs. See how much did you spend and the amounts you spent.
 
 ## Demo
-
+<img src="https://user-images.githubusercontent.com/26444488/103302309-a21b7d80-4a03-11eb-9964-f68865e3f0a1.png" alt="" width="400" height="400">
 ![ss1](https://user-images.githubusercontent.com/26444488/103302309-a21b7d80-4a03-11eb-9964-f68865e3f0a1.png)
 ![ss2](https://user-images.githubusercontent.com/26444488/103302563-400f4800-4a04-11eb-81d6-e6fe399b7f50.png)
 ![ss3](https://user-images.githubusercontent.com/26444488/103302611-57e6cc00-4a04-11eb-86bc-0c1a706deb7f.png)
